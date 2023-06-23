@@ -7,7 +7,7 @@ document.getElementById("switch").onclick = function(){
         document.getElementById("blurr").style.filter = "blur(500px)"
         document.body.style.backgroundColor = "var(--main-colour)"
         document.querySelector(".bb").style.color = "#FFFFFF"
-        document.querySelector(".side_info").style.color = "#FFFFFF"
+        document.querySelectorAll(".side_info").style.color = "#FFFFFF"
         dark_on = true;
     }else if(dark_on != false){
         document.getElementById("switch").style.backgroundColor = "#000000";
@@ -16,7 +16,7 @@ document.getElementById("switch").onclick = function(){
         document.getElementById("blurr").style.filter = "blur(1000px)"
         document.body.style.backgroundColor = "#FFFFFF"
         document.querySelector(".bb").style.color = "var(--main-colour)"
-        document.querySelector(".side_info").style.color = "var(--main-colour)"
+        document.querySelectorAll(".side_info").style.color = "var(--main-colour)"
         dark_on = false;
     }
     
