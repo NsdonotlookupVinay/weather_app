@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather.io</title>
+    <link rel="stylesheet" href="main_style.css">
+    <link rel="stylesheet" href="css_script/nav_bar.css">
+    <link rel="stylesheet" href="css_script/weather1.css">
+</head>
+<body>
+    <div class="main_body">
+        <nav class="nav_bar">
+            <div class="logo">
+                <div class="h1" id="line1">WEATHER</div>
+                <h2>.io</h2>
+            </div>
+            <div class="dark_mode">
+                <div class="switch" id="switch" onclick="darkmode">
+                    <img src="icons/dark_moon.png" alt="">
+                    <img src="icons/sun.png" alt="">
+                </div>
+            </div>
+        </nav>
+        <div class="search_bar">
+            <input id="search_bar_input" type="text" placeholder="Enter City">
+            <img id="search_bar_image" src="icons/search.png" alt="">
+        </div>
+        <div class="weatherall">
+            
+            <div class="weather1">
+                <div class="weather_logo">
+                    <img id="weather_logo_image" src="weather_icons/clear_sky.png" alt="">
+                </div>
+                <div class="weather_info">
+                    <div id="weather_main" class="weather_main bb">Clear Sky</div>
+                    <div id="location_name" class="location_name">Jammu</div>
+                    <div id="temp" class="temp bb">19&degC</div>
+                </div>
+                <div id="blurr" class="blurr"></div>
+            </div>
+            <div class="weather0">
+                <div class="side_info" id="fealslike">Feels Like ~ 19&degC</div>
+                <div class="side_info" id="tempmax">Temprature Max 19&degC / Min 19&degC</div>
+                <div class="side_info" id="pressure">Pressure - 999</div>
+                <div class="side_info" id="humidity">Humidity - 999</div>
+                <div class="side_info" id="wind_speed">Wind Speed - 999</div>
+            </div>
+                
+
+            </div>
+        </div>
+        
+    </div>
+    <script src="weather.js"></script>
+    <script src="js_scripts/nav_bar.js"></script>
+    <script src="js_scripts/weather1.jss"></script>
+</body>
+</html>
