@@ -6,7 +6,7 @@ document.getElementById("switch").onclick = function(){
         document.getElementById("blurr").style.background = "linear-gradient(#747d8c,#57606f,#747d8c,#2f3542)"
         document.getElementById("blurr").style.filter = "blur(500px)"
         document.body.style.backgroundColor = "var(--main-colour)"
-        document.querySelector(".bb").style.color = "#FFFFFF"
+        document.querySelector(".bbb").style.color = "#FFFFFF"
         document.querySelectorAll(".side_info").style.color = "#FFFFFF"
         dark_on = true;
     }else if(dark_on != false){
@@ -15,7 +15,7 @@ document.getElementById("switch").onclick = function(){
         document.getElementById("blurr").style.background = "linear-gradient(#1e90ff , #3742fa,#2ed573,#ffa502)"
         document.getElementById("blurr").style.filter = "blur(1000px)"
         document.body.style.backgroundColor = "#FFFFFF"
-        document.querySelector(".bb").style.color = "var(--main-colour)"
+        document.querySelector(".bbb").style.color = "var(--main-colour)"
         document.querySelectorAll(".side_info").style.color = "var(--main-colour)"
         dark_on = false;
     }
